@@ -43,18 +43,21 @@ if [ $arch -eq 32 ] && [ $CPPBIN = "pppwn64" ] ; then
 CPPBIN="pppwn7"
 fi
 
-echo -e "\n\n\033[36m _____  _____  _____                 
-|  __ \\|  __ \\|  __ \\
-| |__) | |__) | |__) |_      ___ __
-|  ___/|  ___/|  ___/\\ \\ /\\ / / '_ \\
-| |    | |    | |     \\ V  V /| | | |
-|_|    |_|    |_|      \\_/\\_/ |_| |_|\033[0m
+echo -e "\n\n\033[36m 
+  _    _               _____   _  __    _____     _____   _  _       __   __        ___     ___  
+ | |  | |     /\      / ____| | |/ /   |  __ \   / ____| | || |     /_ | /_ |      / _ \   / _ \ 
+ | |__| |    /  \    | |      | ' /    | |__) | | (___   | || |_     | |  | |     | | | | | | | |
+ |  __  |   / /\ \   | |      |  <     |  ___/   \___ \  |__   _|    | |  | |     | | | | | | | |
+ | |  | |  / ____ \  | |____  | . \    | |       ____) |    | |      | |  | |  _  | |_| | | |_| |
+ |_|  |_| /_/    \_\  \_____| |_|\_\   |_|      |_____/     |_|      |_|  |_| (_)  \___/   \___/ 
+                                                                                                 
+                                                                                                 
+\033[0m
 \n\033[33mhttps://github.com/TheOfficialFloW/PPPwn\033[0m\n" | sudo tee /dev/tty1
 
-echo -e "\033[37mGoldhen by      : SiSTR0\033[0m" | sudo tee /dev/tty1
-echo -e "\033[37mOriginal Script : Stooged\033[0m" | sudo tee /dev/tty1
-echo -e "\033[37mC++ Port        : xfangfang\033[0m" | sudo tee /dev/tty1
-echo -e "\033[37mMod By          : joe97tab\033[0m" | sudo tee /dev/tty1
+echo -e "\033[37mHack by      : Chepgameps4.com\033[0m" | sudo tee /dev/tty1
+echo -e "\033[37mSdt   : 0987929209\033[0m" | sudo tee /dev/tty1
+
 
 sudo systemctl stop pppoe
 if [ $USBETHERNET = true ] ; then
