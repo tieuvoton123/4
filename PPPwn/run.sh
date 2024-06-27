@@ -81,7 +81,7 @@ if [ "$PIIP" ]; then
    echo -e "\033[92mIP: \033[93m $PIIP\033[0m" | sudo tee /dev/tty1
 fi
 
-echo -e "\033[95mReady for console connection\033[0m" | sudo tee /dev/tty1
+echo -e "\033[95mDANG HACK NHE....\033[0m" | sudo tee /dev/tty1
 
 while [ true ]
 do
